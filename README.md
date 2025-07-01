@@ -24,7 +24,7 @@ You'll need API keys from three services. But, you likely won't get to the free 
 
 ### 2. Download the repository
 
-Create a folder and put the files inside it.
+Create a folder and put downloaded files inside it.
 
 ### 3. Set Up Your `config.json` File
 
