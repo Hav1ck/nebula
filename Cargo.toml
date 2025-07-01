@@ -1,0 +1,22 @@
+[package]
+name = "nebula"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cpal = "0.16.0"
+pv_porcupine = "3.0.3"
+webrtc-vad = "0.4.0"
+whisper-rs = { version = "0.14.3", features = ["cuda"] }
+google-ai-rs = "0.1.1" 
+tokio = { version = "1.45.1", features = ["full"] }
+anyhow = "1.0.98"
+dotenvy = "0.15.7"
+elevenlabs_rs = "0.6.0"
+rodio = "0.20.1"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+
+reqwest = { version = "0.12.22", features = ["stream"] }
+futures-util = "0.3.31"
+indicatif = { version = "0.17.12", features = ["tokio"] }

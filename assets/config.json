@@ -1,0 +1,23 @@
+{
+  "porcupine_key": "Your API Key Here", 
+  "gemini_key": "Your API Key Here",  
+  "elevenlabs_key": "Your API Key Here", 
+  
+  "whisper_language": "en",
+
+  "wakeword_path": "./assets/Nebula_en_windows_v3_0_0.ppn",
+  "whisper_model_path": "./assets/ggml-medium-q5_0.bin",
+
+  "gemini_model": "gemini-2.0-flash",
+  "elevenlabs_model": "ElevenMultilingualV2",
+  "voice_id": "kuR1PV7xDOsP38QMSEvD",
+
+  "llm_system_prompt": "You are a concise voice assistant processing transcribed speech, which may contain errors (e.g., homophones, misheard words, no punctuation).\n\nYour goal is to infer the user's true intent.\n\nBe Direct: Give factual answers without conversational filler.\n\nFormat for Speech: Use simple sentences.\n\nAnswer in the same language as the user.",
+  "vad_mode": "Aggressive",
+  "wwd_sensitivity": 0.0,
+
+  "frame_duration_ms": 30,
+  "silence_threshold_seconds": 1,
+  "speech_trigger_frames": 3,
+  "frame_length_wwd": 512
+}
